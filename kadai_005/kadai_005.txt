@@ -1,0 +1,30 @@
+PS C:\Users\sket0> git config --global user.name siro0121
+PS C:\Users\sket0> git config --global user.email sket0121@gmail.com
+PS C:\Users\sket0> git init
+Initialized empty Git repository in C:/Users/sket0/.git/
+PS C:\Users\sket0> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\sket0
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/10/08     21:37                git_challenge
+
+
+PS C:\Users\sket0> cd C:\Users\sket0\git_challenge
+PS C:\Users\sket0\git_challenge> git add .
+PS C:\Users\sket0\git_challenge> git add .            
+PS C:\Users\sket0\git_challenge> git commit -m "hello_worldを追加"
+[main (root-commit) 1710a2d] hello_worldを追加   
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git_challenge/hello_world.txt
+PS C:\Users\sket0\git_challenge> git add .
+PS C:\Users\sket0\git_challenge> git commit -m "日本語訳を追記"
+[main 58188d6] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\sket0\git_challenge> git log --oneline
+58188d6 (HEAD -> main) 日本語訳を追記
+1710a2d hello_worldを追加
+PS C:\Users\sket0\git_challenge> 
